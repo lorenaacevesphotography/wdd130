@@ -5,6 +5,13 @@
 --accent2-color: #56A3A6;
 --heading-font:"Roboto", sans-serif;
 --body-font:"Bebas Neue", sans-serif;
+}
+
+header{
+
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
 
 * 
 {
@@ -12,15 +19,6 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
-
-
-}
-header{
-
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 body{
     font-family: var(--body-font);
     color: var(--accent-color);
