@@ -40,23 +40,25 @@ padding: 8px;
 .navbar{
     color:#CAD49D;
     display: flex;
-    justify-content: space-between;
-    
+    align-items:flex-start;
     padding: 20px;
-    position:fixed;
+    
     top: 0;
     width: 100%;
 }
 .navbar a{
+   
     text-decoration: none;
 }
 .navbar ul{
     list-style: none;
     display: flex;
-    align-items: flex-end;
+    
+    
     margin-right: 40px;
 }
 .navbar ul a{
+    
     margin-left: 20px;
     color:#484538;
     text-decoration: none;
@@ -98,4 +100,15 @@ color: #fff;
 .hero-image article img {
     float: right;
     width: 125px;
+}
+
+.footer
+{
+
+}
+.socialmedia img 
+{
+width: 24px;
+height: 24px;
+
 }
