@@ -32,18 +32,46 @@ font-family: var(--heading-font);
 color: var(--primary-color);
 
 }
-nav,p,section,article {
+p,section,article {
 margin: 16px;
 padding: 8px;
+}
+
+.navbar{
+    color:#CAD49D;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+.navbar ul a{
+    margin-left: 20px;
+    color:#484538;
+    text-decoration: none;
+
 
 }
+/* 
+este es el original  del nav
 nav ul {
 
     display: flex;
     flex-flow:column ;
     align-content: space-between;
 }
-
+*/
 .socialmedia a{
     text-decoration: none;
 }
