@@ -104,11 +104,15 @@ color: #fff;
 
 .footer
 {
-
+color:#484538;
 }
 .socialmedia img 
 {
 width: 24px;
 height: 24px;
 
+}
+.socialmedia a{
+    
+    text-decoration: none;
 }
