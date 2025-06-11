@@ -63,13 +63,15 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 button{
-    margin: 0%;
+    margin: 20%;
+    padding: 10px;
     background-color: navy;
     color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .60rem;
-    font-size: 1.2rem;
+    width:100%;
+    font-size: 16px;
+    border-radius: 4px;
+    
+    
 }
 footer {
     margin: 1rem auto 0;
