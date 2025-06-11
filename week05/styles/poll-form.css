@@ -70,4 +70,12 @@ button{
     padding: .75rem;
     font-size: 1.2rem;
 }
-footer
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1 px solid #ccc;
+}
+
