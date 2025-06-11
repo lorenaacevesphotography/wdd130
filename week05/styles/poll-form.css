@@ -25,3 +25,13 @@ color: navy;
 text-align: center;
 
 }
+form 
+{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
