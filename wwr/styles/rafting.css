@@ -211,3 +211,24 @@ height: 24px;
 
 }
 
+/*contact page -form*/
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #484538;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    color: #C0D8E0;
+}
+
+.contact-form fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.contact-form legend{
+    margin-bottom: 15px;
+}
