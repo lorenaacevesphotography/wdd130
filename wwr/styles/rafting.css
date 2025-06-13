@@ -232,3 +232,23 @@ height: 24px;
 .contact-form legend{
     margin-bottom: 15px;
 }
+.contact-form input[type="radio"] {
+  margin-right: 8px;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #0077cc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
