@@ -185,3 +185,29 @@ height: 24px;
   text-align: center;
   margin: 40px auto;
 }
+/*contact page*/
+
+.photo-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.photo {
+    text-align: center;
+    max-width: 200px;
+
+}
+.photo img {
+    width: 100%;
+    border-radius: 10%;
+
+}
+.photo p, .photo figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+
+}
+

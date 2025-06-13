@@ -103,15 +103,31 @@
 <form>
     <fieldset>
         <legend>Contact Us</legend>
-        <!--estas dos son juntas-->
+
+        <!--nombre-->
         <label for="fullname">Full Name:</label>
-        <input type="text" id="fulltime" name="fullname">
+        <input type="text" id="fulltime" name="fullname" required>
+
+
         <!--Este es de email-->
-        <label> Email: <input type="email" name="=useremail"></label>
-        <label for= "purpose">purpose of the message</label>    
-        <input type="radio" id="purpose" name="purpose">
-        <label for= "radio">Reservation Question</label>    
-        <input type="radio" id="reservation" name="reservation">
+        <label for="useremail">Email</label>
+        <input type="email" id="useremail" name="useremail" required>
+
+        <!--mensaje con radios-->
+        <p>Purpose of the message </p>
+        <input type="radio" id="general" name="purpose" value="general">
+        <label for= "general">General Inquiry</label> <br>  
+
+        <input type="radio" id="reservation" name="purpose"   value="reservation">
+        <label for="reservation">Reservation Question</label><br>
+
+        <input type="radio" id="website" name="purpose" value="website">
+        <label for="website">Website Suggestion</label><br>
+
+        <!--mensaje-->
+        <label for="message"> Your Message:</label>
+        <textarea id=" message" name="message" rows="4" required></textarea>
+        <!--boton-->
          <button type="submit">Send</button>
         
 
