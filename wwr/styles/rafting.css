@@ -159,6 +159,7 @@ color: #fff;
 
 .footer
 {
+    text-align: center;
 color:#484538;
 }
 .socialmedia img 
@@ -170,4 +171,17 @@ height: 24px;
 .socialmedia a{
     
     text-decoration: none;
+}
+.company-info {
+  max-width: 600px;
+  margin: 40px auto;       /* Centra horizontalmente y da espacio arriba/abajo */
+  padding: 30px 20px;
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  text-align: center;       /* Centra el texto dentro del bloque */
+  font-family: sans-serif;
+}
+.mapa {
+  text-align: center;
+  margin: 40px auto;
 }
