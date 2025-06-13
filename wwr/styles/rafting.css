@@ -4,7 +4,17 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
-
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0/10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20em;
+    text-align: center;
+}
 
 
 :root {
@@ -18,9 +28,11 @@ box-sizing: border-box;
 
 header{
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    text-decoration: none;
     background-color:var(--primary-color);
     color:var(--accent2-color);
     
@@ -35,7 +47,7 @@ header{
 .logo{
 width: 80px;
 height: auto;
-margin-right: 10px;
+margin-right: 0px;
 
 } 
 .title
@@ -48,17 +60,18 @@ font-weight: bold;
 
 
 .nav1 ul, .nav1 li {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     align-items: center;
     display: flex;
     padding: 0;
     list-style: none;
     gap: 20px;
-   
-   
-}
- a {
-    text-decoration: none;
+   }
+
+ .nav1 a {
+    
     font-weight: bold;
     color:#484538;
     
